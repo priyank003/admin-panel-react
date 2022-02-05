@@ -1,0 +1,32 @@
+.productorder__info {
+  padding-bottom: 2rem;
+}
+.productorder__info__header {
+  margin-top: 10px;
+  padding: 5px;
+  background: var(--color-primary);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.productorder__info__header p {
+  font-weight: 500;
+  margin: 0;
+}
+.productorder__info__input__field {
+  width: 100% !important;
+
+  margin: 10px !important;
+}
+@media (max-width: 1000px) {
+  .productorder__info__input__row {
+    flex-direction: column;
+  }
+  .productorder__info__input__field {
+    margin: 10px !important;
+    width: 90% !important;
+  }
+  .productorder__info__input__field input {
+    width: 100% !important;
+  }
+}

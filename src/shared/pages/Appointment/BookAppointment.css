@@ -1,0 +1,10 @@
+.appointment__book__appointment__table {
+  width: fit-content !important;
+}
+.appointment__book__appointment__table tbody tr {
+  background-color: #f3f4f6 !important;
+}
+.appointment__book__appointment__table table thead {
+  background-color: #d0d5f0;
+  border: none !important;
+}

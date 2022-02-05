@@ -1,0 +1,52 @@
+.formdisplay {
+  display: flex;
+  flex-direction: column;
+  flex: 0.78;
+  background: white;
+}
+.formdisplay-ham_menu {
+  display: none;
+}
+.formdisplay-container {
+  margin-top: 1rem;
+}
+.appointment__info__header,
+.patient__info__header,
+.patient__history__info__header {
+  padding: 10px 0 10px 10px;
+  background: var(--color-primary);
+}
+.appointment__info__header p,
+.patient__info__header p,
+.patient__history__info__header p {
+  text-align: start;
+}
+.appointment__info__inputs,
+.patient__info__inputs {
+  display: flex;
+}
+.patient__info__inputs {
+  flex-direction: column;
+}
+.patient__info__inputs_row {
+  display: flex;
+}
+@media (max-width: 550px) {
+  .formdisplay-ham_menu {
+    width: fit-content;
+
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+    font-size: 2rem;
+  }
+  .formdisplay {
+    flex: 1;
+
+    padding-bottom: 2rem;
+  }
+  .appointment__info__inputs,
+  .patient__info__inputs_row {
+    flex-direction: column;
+  }
+}

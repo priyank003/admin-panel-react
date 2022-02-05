@@ -1,0 +1,6 @@
+.view__package__table table thead {
+  background: var(--color-primary);
+}
+.view__package__table table tbody tr {
+  background-color: #f3f4f6 !important;
+}

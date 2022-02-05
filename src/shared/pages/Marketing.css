@@ -1,0 +1,33 @@
+.notify__input__div {
+  display: flex;
+}
+.notify__input__div input {
+  border-radius: 5px 0 0 5px;
+  border: 1px solid gray;
+  padding: 2px 5px;
+}
+.notify__input__div input:focus {
+  outline: none;
+}
+/* .notify__input__div button {
+  background-color: "#57C262";
+  color: "white";
+  border: "none";
+  box-sizing: "border-box";
+  flex: "1";
+  border-radius: "0 5px 5px 0";
+} */
+.notify__input__div button {
+  background: #57c262;
+  color: white;
+  border: none;
+  box-sizing: border-box;
+  flex: 1;
+  border-radius: 0 5px 5px 0;
+}
+.marketing__table table thead {
+  background-color: #d0d5f0;
+}
+.marketing__table table tbody tr {
+  background-color: #f3f4f6 !important;
+}

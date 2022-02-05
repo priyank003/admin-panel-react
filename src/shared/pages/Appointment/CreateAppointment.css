@@ -1,0 +1,100 @@
+.formdisplay {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  flex: 0.78;
+  background: white;
+  height: fit-content;
+}
+.formdisplay-ham_menu {
+  display: none;
+}
+.formdisplay-container {
+  margin-top: 1rem;
+}
+.appointment__info__header,
+.patient__info__header,
+.create__appointment__header {
+  padding: 10px 0 10px 10px;
+  background: var(--color-primary);
+}
+.appointment__info__header p,
+.patient__info__header p,
+.create__appointment__header p {
+  text-align: start;
+}
+.appointment__info__inputs,
+.patient__info__inputs {
+  display: flex;
+}
+
+.appointment__info__header p,
+.patient__info__header p,
+.create__appointment__header p {
+  padding: 0;
+  margin: 0;
+  font-weight: 500;
+}
+.create__apointment__container {
+  width: 80%;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.formdisplay-container {
+  height: 100%;
+}
+.appointment__info__inputs__input {
+  flex: 1;
+}
+
+.appointment__info__inputs__input {
+}
+.patient__info__inputs {
+  display: flex !important;
+}
+.patient__info__inputs__row {
+  display: flex;
+}
+@media (max-width: 1000px) {
+  .appointment__info__inputs,
+  .patient__info__inputs {
+    flex-direction: column;
+    padding: 10px;
+  }
+  .appointment__info__inputs__input,
+  .patient__info__inputs {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .patient__info__inputs input {
+    padding: 5px;
+    width: 100%;
+  }
+  .create__apointment__container {
+    justify-content: center;
+    width: 100%;
+  }
+  .patient__info__inputs__row {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 550px) {
+  .formdisplay-ham_menu {
+    width: fit-content;
+
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+    font-size: 2rem;
+  }
+  .formdisplay {
+    flex: 1;
+  }
+  .appointment__info__inputs,
+  .patient__info__inputs_row {
+    flex-direction: column;
+  }
+}

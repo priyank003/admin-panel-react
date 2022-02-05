@@ -1,0 +1,42 @@
+.create__prescription {
+  width: 100%;
+}
+.create_Prescription__form__header {
+  padding: 5px;
+  background: var(--color-primary);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.create_Prescription__form__header p {
+  font-weight: 500;
+  margin: 0;
+}
+.create_Prescription__form__inputs {
+  display: flex;
+}
+.create_Prescription__form__inputs__input {
+  flex: 1;
+}
+@media (max-width: 1000px) {
+  .create_Prescription__form__inputs {
+    flex-direction: column;
+    padding: 10px;
+  }
+  .create_Prescription__form__inputs__input {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .create_Prescription__form__inputs__input input {
+    padding: 5px;
+    width: 100%;
+  }
+  .patient__info__inputs_row {
+    flex-direction: column;
+  }
+  .create__apointment__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

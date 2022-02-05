@@ -1,0 +1,90 @@
+.dashboard {
+  width: 100%;
+}
+.dashboard__company__sale {
+  background: white;
+
+  border-radius: 10px;
+}
+.dashboard__company__sale__container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.dashboard__company__sale__header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.dashboard__company__sale__header h2 {
+  font-size: 20px;
+  font-weight: 500;
+}
+.dashboard__company__sale__header p {
+  margin-top: 10px;
+  color: grey;
+}
+.dashboard__company__card {
+  height: 100%;
+  padding: 0 !important;
+  margin-right: 5px;
+}
+.dashboard__company__card__body {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.dashboard__product__order__table {
+  padding: 0 !important;
+  margin-right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1 !important;
+}
+
+.dashboard__product__order__table thead,
+.dashboard__new__lead__table thead,
+.dashboard__book__appointment__table thead {
+  background-color: #d0d5f0;
+  border: none !important;
+}
+.dashboard__new__lead__table {
+  padding: 0 !important;
+  margin-right: 5px;
+}
+.dashboard__book__appointment__table {
+  flex: 1 !important;
+  padding: 0 !important;
+}
+
+.dashboard__product__order__table tbody tr,
+.dashboard__new__lead__table tbody tr,
+.dashboard__book__appointment__table tbody tr {
+  background-color: #f3f4f6 !important;
+}
+.nowrap {
+  white-space: nowrap;
+  table-layout: auto;
+}
+@media (max-width: 992px) {
+  .dashboard__product__order__table {
+    margin-top: 5px !important;
+  }
+}
+@media (max-width: 1180px) {
+  .dashboard__new__lead__table {
+    flex: 1;
+  }
+}
+@media (max-width: 1131px) {
+  .dashboard__new__lead__table {
+    margin-right: 0 !important;
+  }
+  .dashboard__book__appointment__table {
+    margin-top: 5px !important;
+  }
+}
+@media (max-width: 1137px) {
+}

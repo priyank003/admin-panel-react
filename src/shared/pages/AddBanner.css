@@ -1,0 +1,13 @@
+.add_banner_input {
+  flex: 1;
+}
+@media (max-width: 1000px) {
+  .add_banner_input h3 label {
+    font-size: 1.1rem !important;
+    margin: 0;
+    padding: 0;
+  }
+  .add_banner_input .input__image__div__wrapper {
+    width: 100%;
+  }
+}

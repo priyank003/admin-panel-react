@@ -1,0 +1,6 @@
+.doctorlist__table table thead {
+  background-color: #d0d5f0;
+}
+.doctorlist__table table tbody tr {
+  background-color: #f3f4f6 !important;
+}

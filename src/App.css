@@ -1,7 +1,15 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
-
+.App a {
+  text-decoration: none;
+}
+.App__row {
+  display: flex;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -26,6 +34,14 @@
 
 .App-link {
   color: #61dafb;
+}
+
+@media (max-width: 1475px) {
+  .pages__container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
 
 @keyframes App-logo-spin {
