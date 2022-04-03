@@ -5,7 +5,7 @@ import MainHeader from "./shared/navigation/MainHeader";
 import SideNav from "./shared/navigation/SideNav";
 import Dashboard from "./shared/pages/Dashboard/Dashboard";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route, Link, Navigate } from "react-router-dom";
 
 import { Container } from "react-bootstrap";
 import Product from "./shared/pages/Product/Product";
@@ -75,6 +75,8 @@ function App() {
           className="pages__container"
         >
           <Routes>
+            <Route path="/" element={<Navigate to="/dashboard" replace />} />
+
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/product" element={<Product />} />
             <Route path="/createappointment" element={<CreateAppointment />} />
