@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.2a61f9bf.css",
-    "main.js": "/static/js/main.b3545389.js",
-    "static/js/787.659b0247.chunk.js": "/static/js/787.659b0247.chunk.js",
-    "static/media/222186.jpg": "/static/media/222186.56318131eaa164ab5198.jpg",
-    "static/media/Screenshot 2022-01-11 221549.png": "/static/media/Screenshot 2022-01-11 221549.76cd726a2971ab9bc2bf.png",
-    "index.html": "/index.html",
-    "main.2a61f9bf.css.map": "/static/css/main.2a61f9bf.css.map",
-    "main.b3545389.js.map": "/static/js/main.b3545389.js.map",
-    "787.659b0247.chunk.js.map": "/static/js/787.659b0247.chunk.js.map"
+    "main.css": "/admin-panel-app/static/css/main.2a61f9bf.css",
+    "main.js": "/admin-panel-app/static/js/main.35604eea.js",
+    "static/js/787.659b0247.chunk.js": "/admin-panel-app/static/js/787.659b0247.chunk.js",
+    "static/media/222186.jpg": "/admin-panel-app/static/media/222186.56318131eaa164ab5198.jpg",
+    "static/media/Screenshot 2022-01-11 221549.png": "/admin-panel-app/static/media/Screenshot 2022-01-11 221549.76cd726a2971ab9bc2bf.png",
+    "index.html": "/admin-panel-app/index.html",
+    "main.2a61f9bf.css.map": "/admin-panel-app/static/css/main.2a61f9bf.css.map",
+    "main.35604eea.js.map": "/admin-panel-app/static/js/main.35604eea.js.map",
+    "787.659b0247.chunk.js.map": "/admin-panel-app/static/js/787.659b0247.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2a61f9bf.css",
-    "static/js/main.b3545389.js"
+    "static/js/main.35604eea.js"
   ]
 }
