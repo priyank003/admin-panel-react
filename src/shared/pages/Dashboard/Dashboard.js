@@ -13,7 +13,7 @@ export default function Dashboard() {
             justifyContent: "space-between",
           }}
         >
-          <Col lg={4} md={12} className="dashboard__company__card">
+          {/* <Col lg={4} md={12} className="dashboard__company__card">
             <Card style={{}}>
               <Card.Body className="dashboard__company__card__body">
                 <Card.Title>Company Sale</Card.Title>
@@ -31,7 +31,7 @@ export default function Dashboard() {
                 />
               </Card.Body>
             </Card>
-          </Col>
+          </Col> */}
           <Col
             lg={7}
             mg={8}
